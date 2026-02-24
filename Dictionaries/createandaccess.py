@@ -9,3 +9,4 @@ book = {
 }
 print(book)
 print("There is book name",book["tittle"], "whose author is", book["author"], "and it was written in year",book["Year"],"and has total",book["Pages"],"pages")
+print(f"{book['author']} is author of {book['tittle']} which was published in {book['Year']} has total {book['Pages']} Pages ")
