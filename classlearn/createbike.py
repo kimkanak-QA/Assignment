@@ -11,7 +11,7 @@ class Bike:
         print("Manufacture Year is : ",self.make)
 
     def Onroad_price(self):            # function 2
-        if self.price < 100000:
+        if self.price < 1000000:
             self.price = 40000 + self.price
             print("Onroad price is: ", self.price)
         else:
